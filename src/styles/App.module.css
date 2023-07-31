@@ -1,0 +1,140 @@
+.AppHeader {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.sayHello {
+  text-align: center;
+  padding: 10px;
+  animation: 3s change-color 1 normal;
+}
+
+@keyframes change-color {
+  from {
+    color: rgb(8, 8, 102, 0);
+  }
+  to {
+    color: rgb(8, 8, 102);
+  }
+}
+
+.knowButton {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid rgb(8, 8, 102);
+  display: block;
+
+  background: linear-gradient(to right, rgb(8, 8, 102) 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  animation: 3s set-visible 1 normal;
+  animation-timing-function: step-end;
+}
+
+@keyframes set-visible {
+  from {
+    background: rgb(255, 255, 255, 0);
+    color: rgb(8, 8, 102, 0);
+    border: 2px solid rgb(8, 8, 102, 0);
+  }
+  to {
+    background: rgb(255, 255, 255);
+    color: rgb(8, 8, 102);
+    border: 2px solid rgb(8, 8, 102);
+  }
+}
+.knowButton:hover {
+  cursor: pointer;
+  color: white;
+  background-position: left bottom;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  height: 100px;
+  width: auto;
+}
+.text {
+  line-height: 150%;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.skill {
+  padding: 10px 0;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element {
+  min-height: 100vh;
+  padding-left: var(--position-nav-elements);
+  padding-right: var(--position-nav-elements);
+}
+
+.openlink {
+  color: rgb(8, 8, 102);
+  text-decoration: none;
+}
+
+.openlink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contactelement {
+  display: flex;
+  align-items: center;
+}
+h2 {
+  padding-right: 10px;
+}
+
+@media (max-width: 700px) {
+  .element {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .image {
+    height: 60px;
+    width: auto;
+  }
+  .skill {
+    width: 75px;
+  }
+  .text {
+    line-height: 120%;
+  }
+  .element {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
