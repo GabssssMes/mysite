@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mysite/static/css/main.8920fdf3.css",
-    "main.js": "/mysite/static/js/main.97baf89b.js",
+    "main.js": "/mysite/static/js/main.5a79d36c.js",
     "static/js/787.7cb2e3e1.chunk.js": "/mysite/static/js/787.7cb2e3e1.chunk.js",
     "static/media/Shoppingcart.png": "/mysite/static/media/Shoppingcart.5be2299aa89bd8370e49.png",
     "static/media/Wheater App.png": "/mysite/static/media/Wheater App.1451326da49ff8ec55b6.png",
@@ -16,11 +16,11 @@
     "static/media/logo.svg": "/mysite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mysite/index.html",
     "main.8920fdf3.css.map": "/mysite/static/css/main.8920fdf3.css.map",
-    "main.97baf89b.js.map": "/mysite/static/js/main.97baf89b.js.map",
+    "main.5a79d36c.js.map": "/mysite/static/js/main.5a79d36c.js.map",
     "787.7cb2e3e1.chunk.js.map": "/mysite/static/js/787.7cb2e3e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8920fdf3.css",
-    "static/js/main.97baf89b.js"
+    "static/js/main.5a79d36c.js"
   ]
 }
