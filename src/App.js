@@ -25,9 +25,10 @@ function App() {
         <h1>About me</h1>
         <h2>Here is my story</h2>
         <p className={style.text}>
-          Hi, I'm Gabriel Messner. It was over 10 years ago, at school, when I
-          learned coding. After finishing school I worked many years as a cook
-          and had nothing to do with programming anymore.
+          Hi, my name is Gabriel, I am 30 years old and I come from South Tyrol.
+          It was over 10 years ago, at school, when I learned coding. After
+          finishing school I worked many years as a cook and had nothing to do
+          with programming anymore.
         </p>
         <p className={style.text}>
           But after several years, I got bored of my job and I was looking for a
@@ -35,7 +36,8 @@ function App() {
           some research I found the online course "The Odin Project" and started
           developing some apps in HTML, CSS and JavaScript. Meanwhile I have a
           solid knowledge of frontend technologies and now I am looking to get
-          my first job as a developer.
+          my first job as a developer to take my programming skills to the next
+          level.
         </p>
 
         <h2>Skills and tools</h2>
