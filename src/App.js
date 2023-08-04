@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <section id="home" className={style.AppHeader}>
         <p className={style.sayHello}>
-          Hi! My name is Gabriel and I'm a frond end web developer.
+          Hi! My name is Gabriel and I'm a frond end developer.
         </p>
         <p>
           <Link smooth to="about" className={style.knowButton} offset={-63}>

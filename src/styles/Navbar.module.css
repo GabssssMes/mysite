@@ -10,7 +10,7 @@
   color: white;
   display: flex;
   gap: 25px;
-  padding: 20px var(--position-nav-elements);
+  padding: 12px var(--position-nav-elements);
   font-size: 23px;
   border-top: 2px solid rgb(8, 8, 102, 0.5);
   border-bottom: 2px solid rgb(8, 8, 102, 0.5);
@@ -39,7 +39,7 @@
   .navbar {
     gap: 10px;
     font-size: 20px;
-    padding: 10px;
+    padding: 7px;
   }
   .active {
     color: grey;
